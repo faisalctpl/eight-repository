@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.clear{
+    clear: both;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+h1{
+    font-size: 3.5rem;
+    padding: 5rem 0rem;
+    padding-top: 10rem;
+    /* margin-top: 2; */
+}
+h3{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 3.5rem;
+    padding: 2rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px ;
+
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: rgb(194, 181, 181);
+}
+nav{
+    background: rgb(88, 77, 77);
+    color: white;
+    padding: 1rem ;
+
+}
+nav img{
+    float: left;
+}
+nav ul{
+    float: right;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin: 3rem 3rem;
+    
+}
+.hero-section{
+    background: url('img/pasta-gc4394cd4d_1920.jpg');
+    height: 50rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 3px 5px 5px black;
+
+}
+.hero-section button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: rgb(177, 153, 153);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.form-section{
+    text-align: center;
+    padding: 5rem 0rem;
+    /* background: rgb(88, 77, 77); */
+
+}
+form{
+
+}
+form input,
+form label, form textarea{
+    display: block;
+    margin: 1rem auto;
+    font-size: 2rem;
+    /* width: 50%; */
+}
+form button{
+    color: white;
+    background: rgb(116, 116, 196);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
